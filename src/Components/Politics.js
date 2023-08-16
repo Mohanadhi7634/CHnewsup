@@ -180,7 +180,7 @@ export const Politics = () => {
                               <div class="col-sm-4">
                                 <div class="rotate-img">
                                   <img
-                                     src={item.url}
+                                      src={`data:image/png;base64,${item.file}`}
                                     alt="banner"
                                     class="img-fluid"
                                   />
